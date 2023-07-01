@@ -1,5 +1,3 @@
-_G.Message = "Your Message here"
-
 task.spawn(function()
     local UIBlox = getrenv().require(game:GetService("CorePackages").UIBlox)
     local Roact = getrenv().require(game:GetService("CorePackages").Roact)
