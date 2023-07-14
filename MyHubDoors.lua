@@ -514,6 +514,7 @@ RunService.RenderStepped:Connect(function()
     end
 end)
 
-OrionLib:Init()
+local Message = Instance.new("Message", game.Workspace)
+Message.Text = "you are using outdated version, Join discord server"
  
 task.wait(2)
